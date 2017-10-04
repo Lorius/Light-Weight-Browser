@@ -1,0 +1,48 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-background-position: center center;
+    -fx-background-size: 70%;
+    -fx-background-repeat: no-repeat;
+}
+.forward-button {
+     -fx-background-image: url("../Resources/Forward-48.png");
+}
+.back-button {
+    -fx-background-image: url("../Resources/Back-48.png");
+}
+.settings-button {
+    -fx-background-image: url("../Resources/Settings-48.png");
+}
+#new-tab {
+    -fx-background-color: transparent;
+    -fx-background-position: center center;
+    -fx-background-size: 95%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-image: url("../Resources/Plus-48.png");
+}
+
+
+.tab-label {
+    -fx-text-fill: #008ba3;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #ffffff;
+}
+.jfx-tab-pane .tab-header-area .tab-selected-line{
+    -fx-padding: 3px;
+    -fx-background-color: #008ba3;
+}
+
+.jfx-text-field {
+    -fx-prompt-text-fill: #008ba3;
+    -fx-text-fill: #008ba3;
+}
+.primary-light-background {
+    -fx-background-color: #62efff;
+}
+.jfx-decorator {
+    -fx-background-color: #008ba3;
+    -fx-border-style: dashed;
+    -fx-border-color: RED;
+}
